@@ -1,0 +1,60 @@
+nav{
+    // position: fixed;
+    width: 100%;
+
+    a{
+        font-size: x-large;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    li{
+        display: inline;
+        margin: 25px 55px;
+        list-style: none;
+        flex-direction: row;
+        display: inline-flexbox;
+    }
+
+    .tombol{
+        right: 0px;
+        flex-direction: row;
+    }
+}
+
+.jumbotron{
+    img{
+        width: 25%;
+    }
+
+    div{
+        h2{
+            font-size: 2em;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+    
+}
+
+.products{
+    h2{
+        font-size: 2em;
+    }
+
+    .card{
+        img{
+            width: 25%;
+        }
+
+        h3{
+            font-size: 2em;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+}
